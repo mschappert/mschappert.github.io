@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-image
+IMAGE
 
 > "When one tugs at a single thing in nature, he finds it attached to the rest of the world."
 >
@@ -52,7 +52,7 @@ Aug. 2016  -  May 2020:
 *Undergraduate Teaching Assistant,*
 *Biology Subject Tutor*
 
-
+IMAGE
 
 ## Highlighted Leadership Expereicnes 
 **CUGWU, Teamsters Local 170**
@@ -66,11 +66,13 @@ Aug. 2016  -  May 2020:
 **Over and Out Moto**                                                     
 * Volunteered to teach basic and intermediate off-road motorcycling skills for women's empowerment event
 
-**Sustainability Committee (Lycoming College)**
+**Sustainability Committee** (Lycoming College)
 * Student, faculty, and staff ran initiative to promote and implement sustainable goals on campus
 
-**National Panhellenic Council (Lycoming College)**
+**National Panhellenic Council** (Lycoming College)
 * Served and supported campus sororities on the executive board (2017-2020)
 
-**Rho Lambda (Lycoming College)**
+**Rho Lambda** (Lycoming College)
 * Co-founded Iota Tau chapter which nationally recognizes Greek affiliated women with great leadership and contribution to their community
+
+IMAGES
