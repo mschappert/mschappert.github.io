@@ -15,9 +15,12 @@ My current research is focused on investigating spatial temporal patterns and sc
 
 ## Education
 Aug. 2023  -  Current
+  
 Clark University
+  
 Ph.D. Geography
 
+  
 
 Aug. 2021  -  Aug. 2023
 Miami University
