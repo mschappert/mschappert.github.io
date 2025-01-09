@@ -14,11 +14,9 @@ Trained in ecology, I am currently seeking a PhD in geography to further my unde
 My current research is focused on investigating spatial temporal patterns and scale of effect on biodiversity in the Atlantic Forest of Brazil, with an aim to contribute to conservation and policy efforts.
 
 ## Education
-Aug. 2023  -  Current
-  
-Clark University
-  
-Ph.D. Geography
+Aug. 2023  -  Current\
+Clark University\
+Ph.D. Geography\
 
   
 
