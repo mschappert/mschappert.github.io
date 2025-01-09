@@ -30,30 +30,26 @@ Aug. 2016  -  May 2020\
 *Minors in Environmental Science, Energy Studies*
 
 ## Work Expereince
-Aug. 2023  -  Current
+Aug. 2023  -  Current: 
 **Clark University**
-*Graduate Teaching Assistant*
+*Graduate Teaching Assistant,*
 *Graduate Research Assistant*
 
-
-Aug. 2021  -  Aug. 2023
+Aug. 2021  -  Aug. 2023: 
 **Miami University**
 *Graduate Teaching Assistant*
 
-
-Apr. 2020 - Ju. 2021
+Apr. 2020 - Ju. 2021: 
 **Shop Rite, RoNetco Supermarkets Inc.**
 *Front End Runner, Cashier*
 
-
-Jan. 2017  -  May 2020
+Jan. 2017  -  May 2020: 
 **Clean Water Institute, Lycoming College**
 *Research Intern*
 
-
-Aug. 2016  -  May 2020
+Aug. 2016  -  May 2020: 
 **Lycoming College**
-*Undergraduate Teaching Assistant*
+*Undergraduate Teaching Assistant,*
 *Biology Subject Tutor*
 
 
