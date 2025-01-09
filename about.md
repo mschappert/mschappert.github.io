@@ -16,17 +16,17 @@ My current research is focused on investigating spatial temporal patterns and sc
 ## Education
 Aug. 2023  -  Current\
 Clark University\
-Ph.D. Geography\
+Ph.D. Geography
 
-Aug. 2021  -  Aug. 2023
-Miami University
-M.A. Geography
+Aug. 2021  -  Aug. 2023\
+Miami University\
+M.A. Geography\
 Concentration in landscape ecology
 
 
-Aug. 2016  -  May 2020
-Lycoming College
-B.S. Biology, Ecology Track
+Aug. 2016  -  May 2020\
+Lycoming College\
+B.S. Biology, Ecology Track\
 Minors in Environmental Science, Energy Studies
 
 ## Work Expereince
