@@ -1,1 +1,0 @@
-.photo-grid{display:flex;flex-wrap:wrap;gap:14px;align-items:flex-start}.photo-grid img,.photo-grid img:first-child{width:auto;height:300px;max-width:100%;object-fit:contain;background:var(--sand)}@media(max-width:720px){.photo-grid img,.photo-grid img:first-child{height:190px;max-width:calc(100vw - 56px)}}

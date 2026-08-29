@@ -32,36 +32,6 @@ if (searchElement) {
   drawResources();
 }
 document.querySelectorAll('#year').forEach((year) => { year.textContent = new Date().getFullYear(); });
-if (!document.querySelector('link[href="pages.css"]')) {
-  document.head.insertAdjacentHTML('beforeend', '<link rel="stylesheet" href="pages.css">');
-}
-if (!document.querySelector('link[href="content.css"]')) {
-  document.head.insertAdjacentHTML('beforeend', '<link rel="stylesheet" href="content.css">');
-}
-if (!document.querySelector('link[href="enhancements.css"]')) {
-  document.head.insertAdjacentHTML('beforeend', '<link rel="stylesheet" href="enhancements.css">');
-}
-if (!document.querySelector('link[href="footer.css"]')) {
-  document.head.insertAdjacentHTML('beforeend', '<link rel="stylesheet" href="footer.css">');
-}
-if (!document.querySelector('link[href="about.css"]')) {
-  document.head.insertAdjacentHTML('beforeend', '<link rel="stylesheet" href="about.css">');
-}
-if (!document.querySelector('link[href="review.css"]')) {
-  document.head.insertAdjacentHTML('beforeend', '<link rel="stylesheet" href="review.css">');
-}
-if (!document.querySelector('link[href="hero-photo.css"]')) {
-  document.head.insertAdjacentHTML('beforeend', '<link rel="stylesheet" href="hero-photo.css">');
-}
-if (!document.querySelector('link[href="quote.css"]')) {
-  document.head.insertAdjacentHTML('beforeend', '<link rel="stylesheet" href="quote.css">');
-}
-if (!document.querySelector('link[href="photo-layout.css"]')) {
-  document.head.insertAdjacentHTML('beforeend', '<link rel="stylesheet" href="photo-layout.css">');
-}
-if (!document.querySelector('link[href="gis-detail.css"]')) {
-  document.head.insertAdjacentHTML('beforeend', '<link rel="stylesheet" href="gis-detail.css">');
-}
 document.querySelectorAll('nav').forEach((nav) => {
   if (!nav.querySelector('a[href="index.html"]')) {
     const homeLink = document.createElement('a');
