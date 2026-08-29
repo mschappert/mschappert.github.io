@@ -43,13 +43,13 @@ document.querySelectorAll('nav').forEach((nav) => {
   if (workLink) workLink.href = 'work.html';
   const blogLink = nav.querySelector('a[href="blog.html"]');
   if (blogLink) blogLink.textContent = 'Blog & Guides';
-  const aboutLink = nav.querySelector('a[href="resume.html"]');
+  const aboutLink = nav.querySelector('a[href="about.html"]');
   if (aboutLink) aboutLink.textContent = 'About';
   if (!nav.querySelector('a[href="publications.html"]')) {
     const link = document.createElement('a');
     link.href = 'publications.html';
     link.textContent = 'Publications';
-    nav.insertBefore(link, nav.querySelector('a[href="resume.html"]'));
+    nav.insertBefore(link, nav.querySelector('a[href="about.html"]'));
   }
   const resourceLink = nav.querySelector('a[href="resources.html"]');
   if (resourceLink) nav.appendChild(resourceLink);
