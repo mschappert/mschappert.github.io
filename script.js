@@ -7,8 +7,16 @@ document.querySelectorAll('#year').forEach((year) => {
 });
 
 document.querySelectorAll('.header-contact').forEach((link) => {
-  link.href = 'mailto:mschappert@clarku.edu';
-  link.innerHTML = 'Let’s connect <span>↗</span>';
+  link.remove();
+});
+
+document.querySelectorAll('footer').forEach((footer) => {
+  if (!footer.querySelector('.footer-email')) {
+    footer.insertAdjacentHTML(
+      'beforeend',
+      '<a class="footer-email" href="mailto:mschappert@clarku.edu">Send an email <span>↗</span></a>'
+    );
+  }
 });
 
 // ============================================================
