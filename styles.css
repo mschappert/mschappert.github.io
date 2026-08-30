@@ -47,7 +47,7 @@ nav a.current{color:var(--clay)}.page-intro{padding-top:105px;padding-bottom:88p
 
 /* ===== quote.css ===== */
 
-.hero h1.hero-quote{max-width:900px;font-size:clamp(36px,4vw,60px);line-height:1.02;letter-spacing:-.05em}.hero-quote em{display:block;margin-top:22px;font-size:.42em;letter-spacing:-.02em}@media(max-width:720px){.hero h1.hero-quote{font-size:42px}}
+.hero h1.hero-quote{max-width:900px;font-size:clamp(38px,4.5vw,65px);line-height:1.02;letter-spacing:-.05em}.hero-quote em{display:block;margin-top:22px;font-size:.42em;letter-spacing:-.02em}@media(max-width:720px){.hero h1.hero-quote{font-size:42px}}
 
 
 /* ===== photo-layout.css ===== */
@@ -64,3 +64,9 @@ nav a.current{color:var(--clay)}.page-intro{padding-top:105px;padding-bottom:88p
 
 /* Footer contact link */
 .footer-email{margin-left:auto;font-size:13px;font-weight:700;color:var(--moss-deep)}.footer-email span{color:var(--clay);font-size:17px}.footer-email:hover{color:var(--clay)}@media(max-width:720px){.footer-email{display:inline-block;margin-left:0}}
+
+/* Homepage section titles */
+.section-heading h2.home-main-title{font-size:38px}
+
+/* Page-intro titles: Work, Resources, Blog, Publications, Gallery, and About */
+.page-intro{padding-bottom:48px}.page-intro h1{font-size:45px;margin-bottom:14px}
