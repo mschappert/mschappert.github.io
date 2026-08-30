@@ -7,8 +7,69 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-  </head>
+      <link rel="stylesheet" href="styles.css">
+      <style>
+        /* Keep the page heading prominent while making individual project titles more compact. */
+        .work-feature h2 {
+          font-size: clamp(32px, 4vw, 52px);
+        }
+
+        .work-feature .project-type {
+          font: 500 10px/1.2 "DM Mono", monospace;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          color: var(--moss);
+        }
+
+        .work-cards h3,
+        .work-cards .gis-project-detail h3,
+        .work-cards .butterfly-copy h3,
+        .work-cards .morgan-project-detail h3,
+        .work-cards .cwi-project-detail h3 {
+          font-size: clamp(26px, 3vw, 36px);
+        }
+
+        /* Use one readable body-text size across every project description and note. */
+        .gis-project-detail div > p,
+        .butterfly-copy > p,
+        .morgan-project-detail div > p,
+        .cwi-project-detail div > p,
+        .gis-project-detail .project-note,
+        .butterfly-copy .project-note {
+          font-size: 14px;
+        }
+
+        /* Give the detailed Brazil poster enough space to be legible. */
+        .work-cards .gis-project-detail {
+          grid-template-columns: minmax(290px, 0.9fr) 1.1fr;
+        }
+
+        .gis-project-detail > img {
+          height: 520px;
+        }
+
+        .work-cards .cwi-project-detail {
+          grid-template-columns: 340px 1fr;
+        }
+
+        .cwi-images {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        /* Each project begins with its own divider, so remove duplicate bottom dividers. */
+        .work-cards .butterfly-project-detail,
+        .work-cards .gis-project-detail,
+        .work-cards .morgan-project-detail {
+          border-bottom: 0;
+        }
+
+        @media (max-width: 720px) {
+          .gis-project-detail > img {
+            height: 380px;
+          }
+        }
+      </style>
+    </head>
   <body>
     <header class="site-header">
       <a class="brand" href="index.html">MS<span>·</span>
@@ -33,9 +94,10 @@
         <article class="work-feature">
           <img src="assets/atlantic-forest.jpg" alt="Atlantic Forest landscape">
           <div>
+            <p class="project-type">Ph.D. Geography dissertation</p>
             <h2>Biodiversity through space, time and sound</h2>
             <p>Investigating land-change processes, scale of effect, and matrix quality on biodiversity in the Atlantic Forest of Brazil.</p>
-            <p>Ph.D. Geography dissertation research · Clark University · 2023–current</p>
+            <p>Clark University · 2023–current</p>
           </div>
         </article>
         <p class="eyebrow section-label">02 / Past projects</p>
