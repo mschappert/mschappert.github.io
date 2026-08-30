@@ -11,14 +11,23 @@
       <style>
         /* Keep the page heading prominent while making individual project titles more compact. */
         .work-feature h2 {
-          font-size: clamp(32px, 4vw, 52px);
+          margin: 10px 0 16px;
+          font: 600 clamp(30px, 4vw, 48px) / 1.01 Newsreader, serif;
+          letter-spacing: normal;
         }
 
-        .work-feature .project-type {
-          font: 500 10px/1.2 "DM Mono", monospace;
+        /* One shared style for Ph.D., M.A. thesis, GIScience, and AGOL labels. */
+        .work-page .project-type {
+          display: block;
+          margin: 0 0 9px;
+          font: 500 12px/1.2 "DM Mono", monospace;
           letter-spacing: 0.08em;
           text-transform: uppercase;
           color: var(--moss);
+        }
+
+        .work-feature > div > p:not(.project-type) {
+          font-size: 14px;
         }
 
         .work-cards h3,
@@ -54,6 +63,13 @@
 
         .cwi-images {
           grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .butterfly-placeholders img {
+          width: 100%;
+          height: 100%;
+          min-height: 165px;
+          object-fit: cover;
         }
 
         /* Each project begins with its own divider, so remove duplicate bottom dividers. */
@@ -94,7 +110,7 @@
         <article class="work-feature">
           <img src="assets/atlantic-forest.jpg" alt="Atlantic Forest landscape">
           <div>
-            <p class="project-type">Ph.D. Geography dissertation</p>
+            <p class="project-type">Ph.D. Geography dissertation · 2023–current</p>
             <h2>Biodiversity through space, time and sound</h2>
             <p>Investigating land-change processes, scale of effect, and matrix quality on biodiversity in the Atlantic Forest of Brazil.</p>
             <!-- <p>Clark University · 2023–current</p> -->
