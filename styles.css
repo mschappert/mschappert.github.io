@@ -742,8 +742,8 @@ nav a.current {
 }
 .publication-list h2 {
   margin:0;
-  font-size:clamp(21px,3vw,42px);
-  line-height:1.02
+  font:600 clamp(20px,2.5vw,30px)/1 Newsreader,serif;
+  letter-spacing:-.035em
 }
 .publication-list div>p {
   margin:14px 0 0;
@@ -1137,7 +1137,7 @@ nav a.current:after {
    ============================================================ */
 .hero h1.hero-quote {
   max-width:900px;
-  font-size:clamp(38px,4.5vw,65px);
+  font-size:clamp(32px,4.5vw,65px);
   line-height:1.02;
   letter-spacing:-.05em
 }
@@ -1364,9 +1364,15 @@ nav a.current:after {
 }
 /* Page-intro titles: Work, Resources, Blog, Publications, Gallery, and About */
 .page-intro {
+  padding-top:65px;
   padding-bottom:48px
 }
 .page-intro h1 {
   font-size:48px;
   margin-bottom:14px
+}
+@media(max-width:720px) {
+  .page-intro {
+    padding-top:52px
+  }
 }
