@@ -66,7 +66,7 @@ const resources = [
   //['Our World in Data', 'Research and visualized data on global challenges.', 'Data', 'Dataset', 'https://ourworldindata.org/'],
   //['Data Feminism', 'A framework for thinking critically about data and power.', 'Reading', 'Book', 'https://data-feminism.mitpress.mit.edu/'],
   ['Projection Wizard', 'Map projection selection tool.', 'Tool', 'https://projectionwizard.org/'],
-  ['Spatial Reference', 'Detailed information and reference materials on spatial coordinate reference systems.', 'Tool', 'Tool', 'https://spatialreference.org/'],
+  ['Spatial Reference', 'Detailed information and reference materials on spatial coordinate reference systems.', 'Tool', 'https://spatialreference.org/'],
   ['EPSG.io', 'Coordinate systems worldwide (EPSG/ESRI).', 'Tool', 'https://epsg.io/'],
   ['Biodiversity Heritage Library', 'Online library making biodiversity literature openly available.', 'Reading','Library', 'https://www.biodiversitylibrary.org/'],
   ['Morphological Spatial Pattern Analysis (MSPA)', 'Landscape metrics tool', 'Tool', 'Software','https://forest.jrc.ec.europa.eu/en/activities/lpa/mspa/'],
