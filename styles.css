@@ -804,7 +804,8 @@ nav a.current {
 .work-feature img {
   width:100%;
   height:470px;
-  object-fit:cover
+  object-fit:contain;
+  background:var(--paper)
 }
 .work-feature h2 {
   font-size:clamp(36px,4.8vw,62px);
@@ -1190,7 +1191,7 @@ nav a.current:after {
   width:100%;
   height:370px;
   object-fit:contain;
-  background:var(--sand)
+  background:var(--paper)
 }
 .gis-project-detail h3 {
   margin:10px 0 16px;
@@ -1375,4 +1376,18 @@ nav a.current:after {
   .page-intro {
     padding-top:52px
   }
+}
+
+/* Work page: bring "01 / Current work" closer to the title */
+.page-intro:has(+ .work-page) {
+  padding-bottom:15px
+}
+.page-intro + .work-page {
+  padding-top:22px
+}
+
+.advisor-link {
+  color:var(--clay);
+  text-decoration:underline;
+  text-underline-offset:3px
 }
