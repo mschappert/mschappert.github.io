@@ -61,13 +61,23 @@ document.querySelectorAll('nav').forEach((nav) => {
 // ============================================================
 
 const resources = [
-  ['Data Commons', 'Public statistics and indicators across places and topics.', 'Data', 'Platform', 'https://datacommons.org/'],
-  ['Open Data Handbook', 'A practical guide to publishing and using open data.', 'Guide', 'Guide', 'https://opendatahandbook.org/'],
-  ['Our World in Data', 'Research and visualized data on global challenges.', 'Data', 'Dataset', 'https://ourworldindata.org/'],
-  ['Data Feminism', 'A framework for thinking critically about data and power.', 'Reading', 'Book', 'https://data-feminism.mitpress.mit.edu/'],
-  ['U.S. Census Data', 'Official demographic, economic, and geographic data.', 'Data', 'Dataset', 'https://data.census.gov/'],
-  ['Observable Plot', 'A concise, expressive library for exploratory charts.', 'Tool', 'Tool', 'https://observablehq.com/plot/']
-].map(([title, description, type, format, url]) => ({ title, description, type, format, url }));
+  //['Data Commons', 'Public statistics and indicators across places and topics.', 'Data', 'Platform', 'https://datacommons.org/'],
+  //['Open Data Handbook', 'A practical guide to publishing and using open data.', 'Guide', 'Guide', 'https://opendatahandbook.org/'],
+  //['Our World in Data', 'Research and visualized data on global challenges.', 'Data', 'Dataset', 'https://ourworldindata.org/'],
+  //['Data Feminism', 'A framework for thinking critically about data and power.', 'Reading', 'Book', 'https://data-feminism.mitpress.mit.edu/'],
+  ['Projection Wizard', 'Map projection selection tool.', 'Tool', 'https://projectionwizard.org/'],
+  ['Spatial Reference', 'Detailed information and reference materials on spatial coordinate reference systems.', 'Tool', 'Tool', 'https://spatialreference.org/'],
+  ['EPSG.io', 'Coordinate systems worldwide (EPSG/ESRI).', 'Tool', 'https://epsg.io/'],
+  ['Biodiversity Heritage Library', 'Online library making biodiversity literature openly available.', 'Reading','Library', 'https://www.biodiversitylibrary.org/'],
+  ['Morphological Spatial Pattern Analysis (MSPA)', 'Landscape metrics tool', 'Tool', 'Software','https://forest.jrc.ec.europa.eu/en/activities/lpa/mspa/'],
+  ['Atlanticr', 'Biodiversity datasets for the Atlantic Forest.', 'Data', 'https://mauriciovancine.github.io/atlanticr/']
+].map(([title, description, type, formatOrUrl, url]) => ({
+  title,
+  description,
+  type,
+  format: url ? formatOrUrl : '',
+  url: url || formatOrUrl
+}));
 
 const filtersElement = document.querySelector('#filters');
 const resultsElement = document.querySelector('#resource-results');
@@ -103,7 +113,9 @@ function drawResources() {
     '<a class="resource" href="' + resource.url + '" target="_blank" rel="noreferrer">' +
       '<span class="resource-number">' + String(index + 1).padStart(2, '0') + '</span>' +
       '<div><h3>' + resource.title + '</h3><p>' + resource.description + '</p></div>' +
-      '<span class="resource-format">' + resource.type + ' · ' + resource.format + '</span>' +
+      '<span class="resource-format">' + resource.type +
+        (resource.format ? ' · ' + resource.format : '') +
+      '</span>' +
       '<span class="resource-arrow">↗</span>' +
     '</a>'
   ).join('');
