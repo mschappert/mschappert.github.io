@@ -1391,3 +1391,16 @@ nav a.current:after {
   text-decoration:underline;
   text-underline-offset:3px
 }
+
+/* Resources page notice */
+.resource-status {
+  display:inline-block;
+  margin:16px 0 0;
+  padding:6px 10px;
+  border:1px solid var(--clay);
+  border-radius:999px;
+  color:var(--clay);
+  font:500 10px/1.2 "DM Mono",monospace;
+  letter-spacing:.08em;
+  text-transform:uppercase
+}
