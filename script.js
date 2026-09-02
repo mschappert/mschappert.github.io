@@ -50,6 +50,20 @@ document.querySelectorAll('nav').forEach((nav) => {
   const resourcesLink = nav.querySelector('a[href="resources.html"]');
   if (resourcesLink) nav.appendChild(resourcesLink);
 
+  const navigationOrder = [
+    'index.html',
+    'work.html',
+    'publications.html',
+    'about.html',
+    'blog.html',
+    'resources.html'
+  ];
+
+  navigationOrder.forEach((href) => {
+    const link = nav.querySelector('a[href="' + href + '"]');
+    if (link) nav.appendChild(link);
+  });
+
   const pageName = window.location.pathname.split('/').pop() || 'index.html';
   nav.querySelectorAll('a').forEach((link) => {
     link.classList.toggle('current', link.getAttribute('href') === pageName);
