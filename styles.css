@@ -422,7 +422,7 @@ nav a:hover,.header-contact:hover,.text-link:hover {
   margin:0 0 9px
 }
 .post-list h3 {
-  font:600 clamp(20px,2.5vw,30px)/1 Newsreader,serif;
+  font:600 clamp(18px,2.3vw,27px)/1 Newsreader,serif;
   letter-spacing:-.035em;
   margin:0
 }
@@ -742,7 +742,7 @@ nav a.current {
 }
 .publication-list h2 {
   margin:0;
-  font:600 clamp(20px,2.5vw,30px)/1 Newsreader,serif;
+  font:600 clamp(18px,2.3vw,27px)/1 Newsreader,serif;
   letter-spacing:-.035em
 }
 .publication-list div>p {
