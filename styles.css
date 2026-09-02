@@ -1393,14 +1393,28 @@ nav a.current:after {
 }
 
 /* Resources page notice */
-.resource-status {
-  display:inline-block;
-  margin:16px 0 0;
-  padding:6px 10px;
-  border:1px solid var(--clay);
-  border-radius:999px;
-  color:var(--clay);
+.resource-status-banner {
+  margin:0;
+  padding:12px max(5vw,28px);
+  background:var(--clay);
+  border-bottom:1px solid var(--clay);
+  color:var(--paper);
   font:500 10px/1.2 "DM Mono",monospace;
   letter-spacing:.08em;
   text-transform:uppercase
+}
+
+/* Preserve the original Resources-page intro spacing. */
+.resources-intro {
+  padding-top:105px;
+  padding-bottom:88px
+}
+.resources-intro h1 {
+  margin-bottom:27px
+}
+@media(max-width:720px) {
+  .resources-intro {
+    padding-top:75px;
+    padding-bottom:64px
+  }
 }
